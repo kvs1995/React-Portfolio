@@ -1,0 +1,9 @@
+.nav-bar-icons svg {
+  /* width: 2rem !important;
+  height: 2rem!important; */
+}
+
+.nav-bar-icons li{
+  line-height: 64px !important;
+  height: 64px !important;
+}

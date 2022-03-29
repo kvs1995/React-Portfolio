@@ -8,7 +8,7 @@ export default function NavHeader({ collapsed, setCollapsed }) {
   return(
     <>
       <Header className="site-layout-background custom-header" style={{padding: 0}}>
-        <MenuOutlined className="custom-menu-icon" onClick={() => { collapsed ? setCollapsed(false): setCollapsed(true)}}/>
+        {/* <MenuOutlined className="custom-menu-icon" onClick={() => { collapsed ? setCollapsed(false): setCollapsed(true)}}/> */}
       </Header>
     </>
   )

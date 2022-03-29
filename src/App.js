@@ -11,12 +11,14 @@ import { useState } from 'react';
 export default function App() {
 
   const [collapsed, setCollapsed] = useState(true)
+  // const [visible, setVisible] =
 
   return (
     <Layout>
-      <NavMenu collapsed={collapsed} setCollapsed={setCollapsed}/> 
+        <NavMenu collapsed={collapsed} setCollapsed={setCollapsed} visible={!collapsed}/> 
       <Layout className="site-layout">
-        <NavHeader collapsed={collapsed} setCollapsed={setCollapsed}/>
+      <NavHeader collapsed={collapsed} setCollapsed={setCollapsed}/>
+
         <MainContent />
       </Layout>
     </Layout>

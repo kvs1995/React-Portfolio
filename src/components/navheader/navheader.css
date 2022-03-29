@@ -1,3 +1,8 @@
 .custom-header {
-  background-color: transparent;
+  background-color: transparent !important;
+}
+
+.custom-menu-icon svg{
+  height: 3rem !important;
+  width: 3rem !important;
 }

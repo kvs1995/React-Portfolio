@@ -10,19 +10,22 @@ export default function NavMenu({ collapsed, setCollapsed }) {
 
   return(
     <>
-      <Sider trigger={null} collapsible collapsed={collapsed}>
+      <Sider trigger={null} collapsible collapsed={collapsed} >
         <div className="logo" />
-        <Menu theme="light" model="inline" defaultSelectedKeys={['1']}>
-          <Menu.Item key="1" icon={<SmileOutlined />}>
+        <Menu className="nav-bar-icons" theme="light" model="inline" defaultSelectedKeys={['1']}>
+          <Menu.Item key="1" icon={<MenuOutlined onClick={() => { collapsed ? setCollapsed(false): setCollapsed(true)}}/>}>
+            
+          </Menu.Item>
+          <Menu.Item key="2" icon={<SmileOutlined/>}>
             Home
           </Menu.Item>
-          <Menu.Item key="2" icon={<ProfileOutlined />}>
+          <Menu.Item key="3" icon={<ProfileOutlined />}>
             About Me
           </Menu.Item>
-          <Menu.Item key="3" icon={<CodeOutlined />}> 
+          <Menu.Item key="4" icon={<CodeOutlined />}> 
             Portfolio
           </Menu.Item>
-          <Menu.Item key="4" icon={<PhoneOutlined />}>
+          <Menu.Item key="5" icon={<PhoneOutlined />}>
             Contact Me
           </Menu.Item>
         </Menu>
