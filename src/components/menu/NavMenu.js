@@ -4,11 +4,9 @@ import { useState } from 'react';
 import {  SmileOutlined, ProfileOutlined, CodeOutlined, PhoneOutlined, LineOutlined, MenuOutlined, MoreOutlined } from '@ant-design/icons';
 import { Layout, Menu } from 'antd';
 
-const { Header, Sider, Content } = Layout;
+const { Sider } = Layout;
 
-export default function NavMenu() {
-
-  const [collapsed, setCollapsed] = useState(false)
+export default function NavMenu({ collapsed, setCollapsed }) {
 
   return(
     <>
