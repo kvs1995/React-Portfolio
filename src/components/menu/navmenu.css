@@ -1,9 +1,13 @@
-.nav-bar-icons svg {
-  /* width: 2rem !important;
-  height: 2rem!important; */
-}
 
 .nav-bar-icons li{
   line-height: 64px !important;
   height: 64px !important;
+}
+
+.nav-bar-main {
+  height: 100%;
+
+  background-color: white !important;
+
+  box-shadow: 0px 2px 10px 3px lightslategray;
 }

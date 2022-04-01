@@ -6,7 +6,7 @@ import MainContent from './components/maincontent/MainContent';
 import 'antd/dist/antd.css'
 import { Layout } from 'antd'
 import { useState } from 'react'; 
-// const { Header, Sider, Content } = Layout;
+const { Header, Sider, Content } = Layout;
 
 export default function App() {
 
@@ -14,10 +14,11 @@ export default function App() {
   // const [visible, setVisible] =
 
   return (
-    <Layout>
-        <NavMenu collapsed={collapsed} setCollapsed={setCollapsed} visible={!collapsed}/> 
+    <Layout className="nav-menu-container" >
+        <NavMenu collapsed={collapsed} setCollapsed={setCollapsed} visible={!collapsed} /> 
+        {/* <NavMenu /> */}
       <Layout className="site-layout">
-      <NavHeader collapsed={collapsed} setCollapsed={setCollapsed}/>
+      <NavHeader/>
 
         <MainContent />
       </Layout>
