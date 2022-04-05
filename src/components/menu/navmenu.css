@@ -1,7 +1,15 @@
-
+:root {
+  --green: rgb(0,177,120);
+  --green-op: rgb(0,177,120,0.5);
+  --orange: rgb(255,152,44);
+  --yellow: rgb(255,227,59);
+  --yellow-op: rgb(255,227,59, 0.3);
+  --blue: rgb(0,73,97);
+  --white-op: rgb(253, 254, 255, 0.5);
+}
 .nav-bar-main {
   height: 100%;
-  background-color: rgb(144, 222, 120) !important;
+  background-color: var(--white-op) !important;
   box-shadow: 0px 2px 10px 3px rgb(119, 153, 131);
   max-width: 225px !important;
   /* width: 225px !important; */
@@ -9,7 +17,7 @@
 }
 
 .nav-bar-main ul,li {
-  background-color:rgb(144, 222, 120) !important;
+  background-color: var(--white-op) !important;
   color:rgb(47, 103, 60);
   font-weight: bolder;
 

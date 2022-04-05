@@ -38,7 +38,10 @@
 }
 
 .ant-layout {
-  background-color: white !important;
+
+  background-color: transparent !important;
+  background-repeat: no-repeat;
+
 }
 
 
