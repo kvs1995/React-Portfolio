@@ -19,8 +19,10 @@ export default function App() {
         {/* <NavMenu /> */}
       <Layout className="site-layout">
       <NavHeader/>
-
+        <Layout className="background">
         <MainContent />
+        </Layout>
+
       </Layout>
     </Layout>
   );

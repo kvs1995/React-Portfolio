@@ -1,5 +1,17 @@
+
+:root {
+  --green: rgb(0,177,120);
+  --green-op: rgb(0,177,120,0.5);
+  --orange: rgb(255,152,44);
+  --yellow: rgb(255,227,59);
+  --yellow-op: rgb(255,227,59, 0.3);
+  --blue: rgb(0,73,97);
+  --white-op: rgb(253, 254, 255, 0.5);
+}
 .custom-header {
-  background-color: transparent !important;
+  background-color: var(--blue) !important;
+  height: 64px !important;
+  width: 100%;
 }
 
 .custom-menu-icon svg{
