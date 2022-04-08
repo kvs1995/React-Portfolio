@@ -9,7 +9,7 @@
   --white-op: rgb(253, 254, 255, 0.5);
 }
 .custom-header {
-  background-color: var(--blue) !important;
+  background-color: transparent !important;
   height: 64px !important;
   width: 100%;
 }

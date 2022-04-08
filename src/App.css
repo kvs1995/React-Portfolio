@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: white !important; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,11 +38,11 @@
 }
 
 .background {
-  background-image: url('./images/background3.png') !important;
-  background-size:110% 120% !important; 
-  /* background-size: cover !important; */
+  /* background-image: url('./images/background3.png') !important;
+  background-size:130% 120% !important; 
   background-color: transparent !important;
-  background-repeat: no-repeat !important;
+  background-repeat: no-repeat !important; */
+  background-color: rgb(240,240,240) !important;
 }
 
 .nav-menu-container{
