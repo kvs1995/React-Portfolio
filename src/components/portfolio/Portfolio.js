@@ -2,9 +2,7 @@
 import './portfolio.css';
 
 //Image Imports
-import fillin1 from '../../images/background.png'
-import fillin2 from '../../images/background3.png'
-import fillin3 from '../../images/IMG_0053.PNG'
+import fillin1 from '../../images/blackfiller.jpeg'
 
 //Icon Imports
 import { GithubFilled, AlignCenterOutlined,RightSquareOutlined, RightSquareTwoTone, FileTwoTone, CodeTwoTone } from '@ant-design/icons';
@@ -28,14 +26,14 @@ export default function Portfolio() {
         </Col>
 
         <Col span={5} className="card-col">
-          <Card hoverable className='individual-cards' id='project2' cover={ <img alt="fillin" src={fillin2}/> }actions={cardIcons}>
+          <Card hoverable className='individual-cards' id='project2' cover={ <img alt="fillin" src={fillin1}/> }actions={cardIcons}>
             
             <Meta title="Project 2 Title" description="Project 2 Description"/>
           </Card>
         </Col>
 
         <Col span={5} className="card-col">
-          <Card hoverable className='individual-cards' id='project3' cover={ <img alt="fillin" src={fillin3}/> } actions={cardIcons}>
+          <Card hoverable className='individual-cards' id='project3' cover={ <img alt="fillin" src={fillin1}/> } actions={cardIcons}>
             <Meta title="Project 3 Title" description="Project 3 Description" />
           </Card>
         </Col>
