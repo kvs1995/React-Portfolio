@@ -5,8 +5,13 @@ import MainContent from './components/maincontent/MainContent';
 import 'antd/dist/antd.css'
 import { Layout } from 'antd'
 import { useState } from 'react'; 
-const { Header, Sider, Content } = Layout;
+import {   Routes, Route } from 'react-router-dom';
+import Home from './components/home/Home'
+import AboutMe from './components/aboutme/AboutMe';
+import Portfolio from './components/portfolio/Portfolio';
+import ContactMe from './components/contactme/ContactMe';
 
+const { Header, Sider, Content } = Layout;
 export default function App() {
   const [clicked, setClicked]= useState('home')
   // const [collapsed, setCollapsed] = useState(true)
@@ -16,7 +21,16 @@ export default function App() {
 
 
       <Layout className="site-layout">
-        <NavHeader clicked={clicked} setClicked={setClicked}/>
+        <NavHeader clicked={clicked} setClicked={setClicked}/>.        
+      
+          <Routes>
+          { clicked === "home" ? <Route path='/' element={<Home />}></Route> 
+          : clicked === "about-me" ? <Route path='bio'  element={<AboutMe />}></Route>
+          : clicked === "portfolio" ?<Route path='portfolio' element={<Portfolio />}></Route>
+          : <Route path='contact' element={<ContactMe />}></Route>}
+          </Routes>
+        
+
         <Layout className="background">
           <MainContent clicked={clicked}/>
         </Layout>
