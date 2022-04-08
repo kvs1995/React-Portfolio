@@ -2,10 +2,7 @@ import './navheader.css';
 import {  SmileOutlined, ProfileOutlined, CodeOutlined, PhoneOutlined, LineOutlined, MenuOutlined, MoreOutlined , LeftOutlined} from '@ant-design/icons';
 import { Layout, Menu, Icon } from 'antd';
 import { useState } from 'react';
-// import Home from '../home/Home'
-// import AboutMe from '../aboutme/AboutMe';
-// import Portfolio from '../portfolio/Portfolio';
-// import ContactMe from '../contactme/ContactMe';
+
 const { Header } = Layout;
 
 export default function NavHeader({ clicked, setClicked }) {
