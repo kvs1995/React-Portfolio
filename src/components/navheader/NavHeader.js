@@ -6,15 +6,14 @@ import { useState } from 'react';
 // import AboutMe from '../aboutme/AboutMe';
 // import Portfolio from '../portfolio/Portfolio';
 // import ContactMe from '../contactme/ContactMe';
-const { Header, Sider } = Layout;
+const { Header } = Layout;
 
-export default function NavHeader() {
-  const [clicked, setClicked]= useState('home')
+export default function NavHeader({ clicked, setClicked }) {
+
 
   return(
     <>
       <Header className="site-layout-background custom-header" style={{padding: 0}}>
-        {/* <MenuOutlined className="custom-menu-icon" onClick={() => { collapsed ? setCollapsed(false): setCollapsed(true)}}/> */}
         <Menu onClick={(e) => {setClicked(e.key); console.log('click', e.key)}} selectedKeys={[clicked]} mode="horizontal">
           <Menu.Item key="home">
             Home
@@ -33,3 +32,4 @@ export default function NavHeader() {
     </>
   )
 }
+

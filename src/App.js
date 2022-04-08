@@ -8,7 +8,7 @@ import { useState } from 'react';
 const { Header, Sider, Content } = Layout;
 
 export default function App() {
-
+  const [clicked, setClicked]= useState('home')
   // const [collapsed, setCollapsed] = useState(true)
   // const [visible, setVisible] =
 
@@ -16,9 +16,9 @@ export default function App() {
 
 
       <Layout className="site-layout">
-        <NavHeader/>
+        <NavHeader clicked={clicked} setClicked={setClicked}/>
         <Layout className="background">
-          <MainContent />
+          <MainContent clicked={clicked}/>
         </Layout>
       </Layout>
 
