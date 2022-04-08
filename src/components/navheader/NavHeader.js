@@ -15,7 +15,7 @@ export default function NavHeader({ clicked, setClicked }) {
 
   return(
     <Header className="site-layout-background custom-header" style={{padding: 0}}>
-      <Menu onClick={(e) => {setClicked(e.key); console.log('to the', e.key, 'section we go')}} selectedKeys={[clicked]} mode="horizontal">
+      <Menu className ="nav-menu" onClick={(e) => {setClicked(e.key); console.log('to the', e.key, 'section we go')}} selectedKeys={[clicked]} mode="horizontal">
         
         <Menu.Item key="home">
           <Link to="/">

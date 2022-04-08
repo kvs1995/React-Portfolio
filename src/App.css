@@ -42,9 +42,15 @@
   background-size:130% 120% !important; 
   background-color: transparent !important;
   background-repeat: no-repeat !important; */
-  background-color: rgb(240,240,240) !important;
+  /* background-color: rgb(240,240,240) !important; */
+  background-color: transparent !important;
 }
 
 .nav-menu-container{
   height: 100%;
+}
+
+.entire-page {
+  /* background: radial-gradient(rgb(222,111,175),rgb(175,212,248)) !important; */
+  background-color: transparent !important;
 }

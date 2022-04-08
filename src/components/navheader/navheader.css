@@ -12,9 +12,17 @@
   background-color: transparent !important;
   height: 64px !important;
   width: 100%;
+  background: transparent !important;
 }
 
 .custom-menu-icon svg{
   height: 3rem !important;
   width: 3rem !important;
+}
+
+.nav-menu {
+  border-bottom-width: 0px !important;
+  border-image-width: 0px !important;
+  border-bottom-color: transparent !important;
+  background-color:  transparent !important;
 }

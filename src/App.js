@@ -10,7 +10,6 @@ import 'antd/dist/antd.css'
 
 //Outer Components
 import NavHeader from './components/navheader/NavHeader'
-import MainContent from './components/maincontent/MainContent';
 
 //Components for the Routes
 import Home from './components/home/Home'
@@ -23,16 +22,15 @@ export default function App() {
   const [clicked, setClicked]= useState('home')
 
   return (
-      <Layout className="site-layout">
-        <NavHeader clicked={clicked} setClicked={setClicked}/>.        
-        <Routes>
-        { clicked === "home" ? <Route path='/' element={<Home />}></Route> 
-        : clicked === "about-me" ? <Route path='bio'  element={<AboutMe />}></Route>
-        : clicked === "portfolio" ?<Route path='portfolio' element={<Portfolio />}></Route>
-        : <Route path='contact' element={<ContactMe />}></Route>}
-        </Routes>
-        <Layout className="background">
-          <MainContent clicked={clicked}/>
+      <Layout className="site-layout entire-page">
+        <NavHeader clicked={clicked} setClicked={setClicked}/> 
+        <Layout className="background">    
+          <Routes>
+          { clicked === "home" ? <Route path='/' element={<Home />}></Route> 
+          : clicked === "about-me" ? <Route path='bio'  element={<AboutMe />}></Route>
+          : clicked === "portfolio" ?<Route path='portfolio' element={<Portfolio />}></Route>
+          : <Route path='contact' element={<ContactMe />}></Route>}
+          </Routes>
         </Layout>
       </Layout>
   );
