@@ -13,6 +13,7 @@
   height: 64px !important;
   width: 100%;
   background: transparent !important;
+
 }
 
 .custom-menu-icon svg{
@@ -25,4 +26,6 @@
   border-image-width: 0px !important;
   border-bottom-color: transparent !important;
   background-color:  transparent !important;
+  display: flexbox;
+  justify-content: flex-end;
 }
