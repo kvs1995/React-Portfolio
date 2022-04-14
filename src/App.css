@@ -40,13 +40,10 @@
 
 .background {
   background-color: transparent !important;
-}
 
-.nav-menu-container{
-  height: 100%;
 }
 
 .entire-page {
-  /* background: radial-gradient(rgb(222,111,175),rgb(175,212,248)) !important; */
-  background-color: transparent !important;
+ background-color: transparent !important;
+  height: 100%;
 }
