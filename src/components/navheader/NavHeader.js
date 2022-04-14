@@ -17,8 +17,8 @@ export default function NavHeader({ clicked, setClicked }) {
     <Header className="site-layout-background custom-header" style={{padding: 0}}>
       <Menu className ="nav-menu" onClick={(e) => {setClicked(e.key); console.log('to the', e.key, 'section we go')}} selectedKeys={[clicked]} mode="horizontal">
         
-        <Menu.Item key="home">
-          <Link to="/">
+        <Menu.Item key="react-portfolio">
+          <Link to="/react-portfolio">
             Home
           </Link>
         </Menu.Item>

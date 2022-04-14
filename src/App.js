@@ -19,14 +19,14 @@ import ContactMe from './components/contactme/ContactMe';
 
 export default function App() {
 
-  const [clicked, setClicked]= useState('home')
+  const [clicked, setClicked]= useState('react-portfolio')
 
   return (
       <Layout className="site-layout entire-page">
         <NavHeader clicked={clicked} setClicked={setClicked}/> 
         <Layout className="background">    
           <Routes>
-          { clicked === "home" ? <Route path='/' element={<Home />}></Route> 
+          { clicked === "react-portfolio" ? <Route path='react-portfolio' element={<Home />}></Route> 
           : clicked === "about-me" ? <Route path='bio'  element={<AboutMe />}></Route>
           : clicked === "portfolio" ?<Route path='portfolio' element={<Portfolio />}></Route>
           : <Route path='contact' element={<ContactMe />}></Route>}
