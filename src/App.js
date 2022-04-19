@@ -27,8 +27,8 @@ export default function App() {
         <Layout className="background">    
           <Routes>
           { clicked === "react-portfolio" ? <Route path='react-portfolio' element={<Home />}></Route> 
-          : clicked === "about-me" ? <Route path='bio'  element={<AboutMe />}></Route>
-          : clicked === "portfolio" ?<Route path='portfolio' element={<Portfolio />}></Route>
+          : clicked === "bio" ? <Route path='bio'  element={<AboutMe />}></Route>
+          : clicked === "portfolio" ? <Route path='portfolio' element={<Portfolio />}></Route>
           : <Route path='contact' element={<ContactMe />}></Route>}
           </Routes>
         </Layout>

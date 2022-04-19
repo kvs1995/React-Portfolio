@@ -1,0 +1,32 @@
+/* coral rgb(224,156,150)
+lgiht blue rgb(84,112,162)
+medium blue rgb(48,70,114)
+darkest blue rgb(23,42,66) */
+
+.about-me-container {
+  border: 5px solid  rgb(23,42,66) !important;
+  color:rgb(23,42,66) !important;
+  margin: 7rem 15rem  5rem 15rem;
+  font-size: 1.24rem!important;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-me-container p{
+  background: rgb(23,42,66);
+  color: rgb(224,156,150);
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.about-me-image  {
+  width: 100%;
+  margin: 0rem 2rem;
+}
+
+.about-me-image img {
+  width: 100%;
+  border-right: 5px solid rgb(48,70,114);
+  border-bottom: 5px solid rgb(224,156,150);
+}
