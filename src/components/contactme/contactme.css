@@ -1,0 +1,59 @@
+
+.contact-container {
+  border: 2px solid rgb(23,42,66);
+  margin: 4rem 25rem  5rem 25rem;
+}
+.contact-header {
+  font-size: x-large !important;
+  display: flex;
+  /* margin: 4rem 25rem  5rem 25rem; */
+  flex-direction: column;
+  text-align: center;
+  padding: 1.5rem 0rem;
+  background-color:  rgb(23,42,66) ;
+
+  border-right: 5px solid rgb(48,70,114);
+  border-bottom: 5px solid rgb(224,156,150);
+
+}
+
+.contact-name {
+  font-size: 4rem;
+  margin:0px;
+
+  color: rgb(224,156,150);
+  /* padding: 2rem; */
+  line-height: 3rem;
+
+}
+
+.contact-title {
+  font-size: rem;
+  align-self:auto;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  color: rgb(84,112,162);
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact-links a, .contact-links p {
+  font-size: xx-large;
+  text-align:center;
+  margin: 2rem;
+  color: rgb(23,42,66) ;
+}
+/* coral rgb(224,156,150)
+lgiht blue rgb(84,112,162)
+medium blue rgb(48,70,114)
+darkest blue rgb(23,42,66) */
+
+.contact-links a:hover{
+  color:rgb(224,156,150);
+}
+
+

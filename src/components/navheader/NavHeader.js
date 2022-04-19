@@ -35,7 +35,7 @@ export default function NavHeader({ clicked, setClicked }) {
           </Link>
         </Menu.Item>
         
-        <Menu.Item key="contact-me" >
+        <Menu.Item key="contact" >
           <Link to="/contact">
             Contact Me
           </Link>
