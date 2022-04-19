@@ -7,10 +7,11 @@ darkest blue rgb(23,42,66) */
   border: 5px solid  rgb(23,42,66) !important;
   color:rgb(23,42,66) !important;
   margin: 7rem 15rem  5rem 15rem;
-  font-size: 1.24rem!important;
+  font-size: 1.2rem!important;
   padding: 1rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px 5px rgb(23,42,66) ;
 }
 
 .about-me-container p{
@@ -18,15 +19,48 @@ darkest blue rgb(23,42,66) */
   color: rgb(224,156,150);
   padding: 1rem;
   font-weight: bold;
-}
-
-.about-me-image  {
-  width: 100%;
-  margin: 0rem 2rem;
-}
-
-.about-me-image img {
-  width: 100%;
   border-right: 5px solid rgb(48,70,114);
   border-bottom: 5px solid rgb(224,156,150);
+  
+}
+
+.about-me-container h1 {
+  /* text-align: center; */
+  font-size: 3rem;
+  margin: 0rem 2rem 1rem 2rem;
+  font-weight: bold;
+}
+
+.about-me-content-1, .about-me-content-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-me-content-2 {
+  /* margin-top: 2rem; */
+  margin: 2rem 1rem;
+}
+
+.about-me-image-1  {
+  width: 25%;
+  margin: 0rem 1rem;
+  /* border-right: 5px solid rgb(48,70,114);
+  border-bottom: 5px solid rgb(224,156,150); */
+  box-shadow: 0px 0px 5px 5px rgb(48,70,114);
+}
+.about-me-img-2 {
+  width: 30%;
+  margin: 0rem 0rem 0rem 1rem;
+  /* height: ; */
+  /* border-right: 5px solid rgb(48,70,114);
+  border-bottom: 5px solid rgb(224,156,150); */
+  box-shadow: 0px 0px 5px 5px rgb(48,70,114);
+}
+
+
+.about-me-text{
+  display: flex;
+  flex-direction:column;
+  margin-top: 1rem;
+
 }
