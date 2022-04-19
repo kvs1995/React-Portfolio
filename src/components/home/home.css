@@ -18,11 +18,11 @@
   margin:0px;
   /* box-shadow: 0px 0px 20px 2px gray !important; */
   /* background-color: white !important; */
-  background-color: rgb(69, 56, 93);
-  color:rgb(175, 165, 240);
+  background-color:  rgb(23,42,66) ;
+  color: rgb(224,156,150);
   /* border: 3px black solid; */
-  border-right: 5px solid rgb(46, 48, 69);
-  border-bottom: 5px solid rgb(116, 113, 164);
+  border-right: 5px solid rgb(48,70,114);
+  border-bottom: 5px solid rgb(224,156,150);
   padding: 2rem;
   line-height: 7rem;
 
@@ -34,5 +34,11 @@
   line-height: 1.5rem;
   margin-top: 2rem;
   /* color:rgb(80, 80, 80); */
-  color:black;
+  color:rgb(23,42,66);
 }
+
+
+/* coral rgb(224,156,150)
+lgiht blue rgb(84,112,162)
+medium blue rgb(48,70,114)
+darkest blue rgb(23,42,66) */
