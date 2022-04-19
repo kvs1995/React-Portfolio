@@ -6,7 +6,7 @@ darkest blue rgb(23,42,66) */
 .about-me-container {
   border: 5px solid  rgb(23,42,66) !important;
   color:rgb(23,42,66) !important;
-  margin: 7rem 15rem  5rem 15rem;
+  margin: 7rem 15rem 7rem 15rem;
   font-size: 1.2rem!important;
   padding: 1rem;
   display: flex;
@@ -63,4 +63,8 @@ darkest blue rgb(23,42,66) */
   flex-direction:column;
   margin-top: 1rem;
 
+}
+
+.padding-container {
+  padding: 1rem;
 }

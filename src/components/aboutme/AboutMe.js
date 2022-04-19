@@ -3,6 +3,7 @@ import profilePicture from '../../images/IMG_4734.JPG'
 import profilePicture2 from '../../images/profile3.jpeg'
 export default function AboutMe() {
   return(
+    <>
     <div className='about-me-container'>
       <h1>A bit about me...</h1> 
 
@@ -25,5 +26,9 @@ export default function AboutMe() {
         <img className="about-me-img-2" src={profilePicture2} alt="profile 2"/>
       </div>
     </div>
+    <div className='padding-container'>
+    </div>
+    </>
+    
   )
 }
