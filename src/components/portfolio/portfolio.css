@@ -1,26 +1,18 @@
 .card-container {
   /* padding: 0em 8rem; */
   justify-content: space-evenly;
-  margin-top: 5rem;
+  margin: 4rem 2rem !important;
 }
 
 .individual-cards {
   /* background-color: black; */
 }
-/* .card-col {
- margin: 5rem;
-} */
 
-/* font-family: 'Gochi Hand', cursive;
-font-family: 'Grape Nuts', cursive;
-font-family: 'Patrick Hand', cursive;
-font-family: 'Rock Salt', cursive;
-font-family: 'Shadows Into Light', cursive; */
 .ant-card-cover {
   border: 1.75em white solid;
 }
 
 .ant-card-body {
   padding-top: 0px !important;
-  font-family: 'Shadows Into Light Regular';
+  /* font-family: 'Shadows Into Light Regular'; */
 }
