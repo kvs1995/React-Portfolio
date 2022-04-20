@@ -2,12 +2,17 @@
   /* padding: 0em 8rem; */
   justify-content: space-evenly;
   margin: 4rem 2rem !important;
+  
 }
 
-.individual-cards {
+.ant-card-meta-title{
   /* background-color: black; */
+  color: rgb(48,70,114) !important;
 }
 
+.ant-card-meta-description {
+  color:  rgb(84,112,162) !important;
+}
 .ant-card-cover {
   border: 1.75em white solid;
 }
@@ -16,3 +21,8 @@
   padding-top: 0px !important;
   /* font-family: 'Shadows Into Light Regular'; */
 }
+
+/* coral rgb(224,156,150)
+lgiht blue 
+medium blue rgb(48,70,114)
+darkest blue rgb(23,42,66) */

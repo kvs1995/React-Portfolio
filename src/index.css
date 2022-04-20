@@ -8,6 +8,8 @@ body {
   font-family: 'Cutive Mono', monospace !important;
   /* background-color:  rgb(255, 255, 255) !important; */
   background-color:  rgb(82,112,165) !important;
+
+  color: rgb(23,42,66) !important;
 }
 
 code {
